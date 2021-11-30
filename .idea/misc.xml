@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NCERTKitab/app/src/main/res/drawable-v24/call.xml" value="0.20153846153846153" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NCERTKitab/app/src/main/res/drawable/bottom_corners.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NCERTKitab/app/src/main/res/drawable/subject_picture.xml" value="0.2" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NCERTKitab/app/src/main/res/drawable/widget_shape.xml" value="0.2046875" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NCERTKitab/app/src/main/res/layout/activity_cbse_subject.xml" value="0.16" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NCERTKitab/app/src/main/res/layout/activity_cbseactivity.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NCERTKitab/app/src/main/res/layout/activity_contact.xml" value="0.14" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NCERTKitab/app/src/main/res/layout/activity_login.xml" value="0.14" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NCERTKitab/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NCERTKitab/app/src/main/res/layout/activity_register.xml" value="0.12" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NCERTKitab/app/src/main/res/layout/activity_upactivity.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/NCERTKitab/app/src/main/res/layout/cbse_subject_layout.xml" value="0.16" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

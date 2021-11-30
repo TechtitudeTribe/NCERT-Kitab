@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/contact_header"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_corners"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H\n E\n L\n P\n"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/contact_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/help_desk"
+        android:layout_centerInParent="true"
+        app:tint="@color/teal_200" />
+
+    <TextView
+        android:id="@+id/text_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Any Query? Contact Us... "
+        android:layout_below="@id/contact_image"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/social_media"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:layout_below="@id/text_help"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/call_help"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/call"
+            android:background="@drawable/widget_shape"
+            android:padding="8dp"
+            android:backgroundTint="@color/creative_sky_blue"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/fb_help"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/facebook"
+            android:background="@drawable/widget_shape"
+            android:padding="8dp"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="@color/facebook_color"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/twitter_help"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/twitter"
+            android:background="@drawable/widget_shape"
+            android:padding="8dp"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="@color/twitter_color"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/mail_help"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/mail"
+            android:background="@drawable/widget_shape"
+            android:padding="8dp"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="@color/creative_orange"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/insta_help"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/instagram"
+            android:background="@drawable/widget_shape"
+            android:padding="8dp"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="@color/creative_red"
+            app:tint="@color/white" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/help_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Drop Message"
+        android:background="@drawable/widget_shape"
+        android:layout_below="@id/social_media"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="serif"/>
+</RelativeLayout>
