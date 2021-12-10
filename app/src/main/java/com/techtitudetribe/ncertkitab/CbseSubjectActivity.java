@@ -37,7 +37,7 @@ public class CbseSubjectActivity extends AppCompatActivity {
         cbsesubref = FirebaseDatabase.getInstance().getReference().child(board).child(category);
 
 
-        GridLayoutManager layoutManager = new GridLayoutManager(CbseSubjectActivity.this, 2);
+        GridLayoutManager layoutManager = new GridLayoutManager(getApplicationContext(), 2);
         cbseSubject.setLayoutManager(layoutManager);
 
         viewSubjectList();
@@ -69,7 +69,7 @@ public class CbseSubjectActivity extends AppCompatActivity {
                             @Override
                             public void onClick(View view) {
 
-                                Intent chapterIntent = new Intent(CbseSubjectActivity.this, ChapterActivity.class);
+                                Intent chapterIntent = new Intent(CbseSubjectActivity.this, ChapterPdfActivity.class);
                                 chapterIntent.putExtra("key", key);
                                 chapterIntent.putExtra("category", category);
                                 startActivity(chapterIntent);

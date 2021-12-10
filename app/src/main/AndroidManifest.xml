@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NCERTKitab">
         <activity
+            android:name=".ShowPdfActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChapterPdfActivity"
+            android:exported="true" />
+        <activity
             android:name=".ChapterActivity"
             android:exported="true" />
         <activity
